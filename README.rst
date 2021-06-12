@@ -11,7 +11,7 @@ by INRIM, Istituto Nazionale di Ricerca Metrologica, the italian NMI
 of the national standard time (UTC-IT). The name RAI comes from one of
 the major italian broadcaster.
 
-This SRC implementation is focused to the offline encoding and decoding of the
+This SRC implementation is focused on the offline encoding and decoding of the
 signal. The coded signal is rendered as linear PCM audio that may be
 stored to file (.wav) and decoded or played from file. The time to binary
 encoding/decoding and the binary to audio encoding/decoding are in separate
