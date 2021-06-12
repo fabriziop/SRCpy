@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # .+
-# .context    : iSRCpy, RAI coded signal (SRC)
+# .context    : SRCpy, RAI coded signal (SRC)
 # .title      : package setup
 # .kind       : python script
 # .author     : Fabrizio Pollastri <mxgbot@gmail.com>
@@ -15,6 +15,9 @@ from setuptools import setup
 
 setup(
     name = 'srcpy',
+    long_description = 'Encoder/decoder for the SRC time signal',
+    long_description_content_type = 'text/x-rst',
+    url = 'https://github.com/fabriziop/SRCpy',
     packages = ['srcpy'],
     package_dir = {'srcpy':'src'},
     include_package_data = True,
