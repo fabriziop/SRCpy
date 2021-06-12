@@ -17,7 +17,8 @@ stored to file (.wav) and decoded or played from file. The time to binary
 encoding/decoding and the binary to audio encoding/decoding are in separate
 single functions, with a simple API for extension to other applications.
 
-Currently, this SRC implementation hasn't been tested on any hardware.
+Currently, this SRC implementation has been tested on clock mod. RAD2000 by
+ESAT, Torino - Italy.
 
 This SRC implementation is **not** endorsed by INRIM.
 
