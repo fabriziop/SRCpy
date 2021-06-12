@@ -20,13 +20,13 @@ import sys
 import wave
 
 
-# open a wav format file containing the SIC signal
+# open a wav format file containing the SRC signal
 fsrc = wave.open(sys.argv[1],"rb")
 
-# read in SIC signal as linear PCM audio
+# read in SRC signal as linear PCM audio
 audio = np.frombuffer(fsrc.readframes(-1),np.int16)
 
-# demodulate sic audio to sic binary code
+# demodulate SRC audio to SRC binary code
 bin_code = audio_to_bin_code(audio,fsrc.getframerate())
 print(
     'signal segment #1: {:08x} hex {:032b} bin'.format(bin_code[0],bin_code[0]))
