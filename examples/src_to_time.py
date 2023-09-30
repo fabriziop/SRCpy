@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # .+
 # .context    : SRCpy, RAI coded signal (SRC)
 # .title      : decode a SRC signal from linear PCM audio to time

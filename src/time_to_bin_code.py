@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # .+
 # .context    : SRCpy, RAI coded signal (SRC)
 # .title      : SRC encoding from time data to SRC binary code
