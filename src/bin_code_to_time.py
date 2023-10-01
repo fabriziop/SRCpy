@@ -108,7 +108,7 @@ def bin_code_to_time(bin_code):
     # 10 : subtract one second at the end of month
     # 11 : add one second at the end of month
     # NOT YET IMPLEMENTED
-    # skip ti for now
+    # skip it for now
     seg2 >>= 2
 
     # bits 12-10: DST alert,
@@ -118,7 +118,7 @@ def bin_code_to_time(bin_code):
     # 001 : change next day
     # 000 : change @02:00 or @03:00
     # NOT YET IMPLEMENTED
-    # skip ti for now
+    # skip it for now
     seg2 >>= 3
   
     # bits 9-2: year of the century,
