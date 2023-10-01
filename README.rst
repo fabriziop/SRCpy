@@ -121,7 +121,6 @@ already be installed.  The latest release is recommended.  Python is
 available from http://www.python.org/.
 
 SRCpy also requires the following python modules to be installed:
-
   - **numpy**
   - **pyaudio**
   - **python-dateutil**
