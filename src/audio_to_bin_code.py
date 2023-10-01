@@ -15,8 +15,6 @@ from srcpy.common import *
 
 import scipy.signal as ss
 
-import matplotlib.pyplot as pl
-
 
 #### functions
 
