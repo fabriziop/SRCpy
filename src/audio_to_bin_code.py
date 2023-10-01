@@ -51,8 +51,8 @@ def audio_to_bin_code(audio,sampling_rate):
     ## demodulate codified time signal: FSK 0/1 30ms@2kHz/30ms@2.5kHz
 
     # envelope of 0/1 symbols correlation
-    sc0_env =np.abs(ss.hilbert(ss.correlate(audio.astype(np.float),sc0)))
-    sc1_env =np.abs(ss.hilbert(ss.correlate(audio.astype(np.float),sc1)))
+    sc0_env =np.abs(ss.hilbert(ss.correlate(audio.astype(float),sc0)))
+    sc1_env =np.abs(ss.hilbert(ss.correlate(audio.astype(float),sc1)))
 
     # find the start of first signal segment (first symbol middle time):
     # first envelop maxima of 0 symbol correlation.
