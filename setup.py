@@ -6,7 +6,7 @@
 # .author     : Fabrizio Pollastri <mxgbot@gmail.com>
 # .site       : Revello - Italy
 # .creation   : 30-Mar-2021
-# .copyright  : (c) 2021 Fabrizio Pollastri
+# .copyright  : (c) 2021-2023 Fabrizio Pollastri
 # .license    : GNU Lesser General Public License
 # .-
 
@@ -24,7 +24,7 @@ setup(
     install_requires = ['python-dateutil','numpy','scipy'],
     scripts = ['examples/time_to_src.py','examples/src_to_time.py',
         'examples/play_wav.py'],
-    version = "0.1.5")
+    version = "0.1.8")
 
 # define global variables
 __script__ = os.path.basename(__file__)

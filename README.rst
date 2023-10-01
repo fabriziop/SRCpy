@@ -120,16 +120,24 @@ To run the code, **Python 3.5 or later** must
 already be installed.  The latest release is recommended.  Python is
 available from http://www.python.org/.
 
+SRCpy also requires the following python modules to be installed:
+
+  - **numpy**
+  - **pyaudio**
+  - **python-dateutil**
+  - **scipy**
 
 
 Installation
 ============
 
-1. Open a shell.
-
-2. Get root privileges and install the package. Command::
-
+To install only module without examples
+::
     pip install srcpy
+
+To install module with examples
+::
+    pipx install srcpy
 
 
 Code Repository
