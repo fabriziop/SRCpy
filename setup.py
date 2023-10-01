@@ -24,8 +24,7 @@ setup(
     install_requires = ['dateutils','numpy','scipy'],
     scripts = ['examples/time_to_src.py','examples/src_to_time.py',
         'examples/play_wav.py'],
-    version_command = ('git describe --tags'))
-#    version_command = ('git describe --tags','pep440-git-dev'))
+    version = "0.1.5")
 
 # define global variables
 __script__ = os.path.basename(__file__)
