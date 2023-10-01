@@ -21,7 +21,7 @@ setup(
     packages = ['srcpy'],
     package_dir = {'srcpy':'src'},
     include_package_data = True,
-    install_requires = ['dateutils','numpy','scipy'],
+    install_requires = ['python-dateutil','numpy','scipy'],
     scripts = ['examples/time_to_src.py','examples/src_to_time.py',
         'examples/play_wav.py'],
     version = "0.1.5")
